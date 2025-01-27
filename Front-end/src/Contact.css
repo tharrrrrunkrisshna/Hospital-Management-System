@@ -1,0 +1,61 @@
+/* Contact.css */
+/* SuperStylish.css */
+
+/* Style for the container div */
+.cd {
+  background-color: rgb(104, 90, 90); /* Background color */
+  color: #fff; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 10px; /* Add some padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Box shadow for depth */
+}
+
+/* Style for the h1 heading */
+.cd h1 {
+  font-size: 36px; /* Font size */
+  margin: 0; /* Remove default margin */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Letter spacing for a stylish look */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow for emphasis */
+}
+
+/* Add more styles as needed */
+
+.contact-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the card horizontally */
+    position: relative; /* Needed for the wave effect */
+    overflow: hidden; /* Hide the overflowing wave */
+    transition: transform 0.3s ease; /* Add smooth transition on hover */
+    margin-top: 7.5%;
+  }
+  
+  .contact-card:hover {
+    transform: scale(1.20); /* Enlarge the card on hover */
+  }
+  
+  .contact-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Wave effect */
+  .contact-card:before {
+    content: "";
+    position: absolute;
+    /* top: -20px; Adjust the distance from the top */
+    left: 0;
+    right: 0;
+    /* height: 20px; Adjust the wave height */
+    background-image: linear-gradient(135deg, #091624, #ffffff);
+    transform: skewY(-3deg); /* Skew the wave shape */
+    z-index: -1; /* Place it behind the card */
+  }
+ 
+  /* Add more styles as needed */
+  

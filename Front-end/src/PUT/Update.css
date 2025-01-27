@@ -1,0 +1,47 @@
+/* Update.css */
+
+.update-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #2c3e50, #3498db);
+    
+  }
+  
+  .update-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .update-btn-container {
+    text-align: center;
+    margin-top: 1px; /* Add margin-top to move the button down */
+  }
+  
+  .update-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding:5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .update-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  .update-success-message {
+    background-color: #5bc0de;
+    color: white;
+    padding: 2px;
+    margin: top 1px;
+    border-radius: 5px;
+  }
+  

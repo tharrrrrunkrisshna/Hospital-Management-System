@@ -1,0 +1,50 @@
+/* SuperStylishAbout.css */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #00c6ff); /* Gradient background */
+}
+
+.about-card {
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Increased shadow */
+  border-radius: 20px; /* Curvier corners */
+  padding: 30px; /* Increased padding */
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.about-card .card-title {
+  font-size: 36px; /* Larger font size for the title */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Enhanced text shadow */
+}
+
+.about-card .card-text {
+  font-size: 20px; /* Larger font size for the text */
+  margin-bottom: 20px; /* Increased margin */
+  color: #444; /* Darker text color */
+}
+
+.about-card .card-link {
+  display: inline-block;
+  margin-top: 20px; /* Increased margin */
+  text-decoration: none;
+  color: #0072ff; /* Vibrant link color */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.about-card .card-link:hover {
+  color: #0056b3;
+}

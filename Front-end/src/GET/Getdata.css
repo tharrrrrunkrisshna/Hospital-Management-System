@@ -1,0 +1,68 @@
+/* GetDataCard.css */
+
+/* Center the card vertically and horizontally */
+.containergd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the initial background image */
+    animation: changeBackground 20s linear infinite; /* Change the background every 20 seconds (2 images in total) */
+  }
+  
+  @keyframes changeBackground {
+    0%, 100% {
+      background-image: url('https://1.bp.blogspot.com/-UlupVh4FZ34/YMw25sWXyzI/AAAAAAAALL8/69RJuGdRaYArG6KOAPMxCi2EoP_RC1QDwCLcBGAsYHQ/s800/Hospital+%28Anime+Background%29+016.jpg');
+      background-position: right center; /* Slide from right to center */
+    }
+    15%,100% {
+      background-image: url('https://i.pinimg.com/1200x/ee/d8/19/eed8191a10a1a2beb74a3526a2d2344d.jpg');
+      background-position: left center; /* Slide from left to center */
+    }
+    
+  }
+  
+  .card-containergd {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation: float 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) both infinite;
+    background-color: antiquewhite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Rest of your existing CSS */
+  /* ... */
+  
+  /* Add lines between table columns */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid rgb(3, 0, 0);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #fdfdfd;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #dd7878;
+  }
+  

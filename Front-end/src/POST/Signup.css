@@ -1,0 +1,79 @@
+/* Signup.css */
+
+/* Apply styles to the container that holds the background image */
+bodyn {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    /* background-image: url('https://wallpaperaccess.com/full/624111.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  }
+  
+  /* Apply styles to the card containing the form */
+/* Apply styles to the card containing the form */
+.signup-card {
+  background-color: rgba(252, 243, 243, 0.932); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: left;
+  /* Removed margin-left and height properties */
+  margin-left: auto; /* Move the card to the right */
+  margin-right: 35%; /* Add some space from the right edge of the screen */
+  margin-top: 4%;
+}
+
+  
+  /* Style the form elements */
+  .signup-card label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .signup-card input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-card button:hover {
+    background-color: #0056b3;
+  }
+  /* Signup.css */
+
+/* ... (previous CSS styles) ... */
+
+/* Style the toggle link */
+.signup-card .toggle-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px; /* Smaller font size */
+  margin-top: 5px; /* Smaller margin-top */
+  padding-left: 150px;
+}
+
+.signup-card .toggle-link:hover {
+  color: #0056b3;
+}

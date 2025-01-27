@@ -1,0 +1,109 @@
+/* Navbar.css */
+
+/* Style the navbar */
+body {
+    background-color: #96b1cc; /* Replace with your desired background color */
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding to ensure full coverage */
+  }
+  
+.navbar {
+    background-color: #343a40 !important;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style the logo link */
+.navbar-brand {
+    color: white !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Style the navigation links */
+.nav-linknq {
+    color: white !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Style the navigation links on hover */
+.nav-linknq:hover {
+    color: #17a2b8 !important;
+}
+
+/* Style the container to center the navbar items */
+.navbar-containern {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 100px; /* Set your desired maximum width */
+    width: 70%;
+    margin: 10 auto;
+}
+
+/* Center the logo and links */
+.logos-and-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Add space between the logo and links */
+.links {
+    margin-left: auto;
+}
+
+/* Style the navigation background */
+.navigation-bgn {
+    position: relative;
+}
+
+/* Style the card overlay text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%; /* Set the text width to match the card */
+}
+
+/* Style the card title */
+.card-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the card text */
+.card-text h3 {
+    font-size: 24px;
+}
+
+/* Custom styles for the design */
+/* Example: Change the background color of the navbar on scroll */
+.navbar.scrolled {
+    background-color: #fff !important;
+    color: #343a40 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar.scrolled .navbar-brand {
+    color: #343a40 !important;
+}
+.navbar.scrolled .nav-link {
+    color: #343a40 !important;
+}
+.navigation-bgn {
+    position: relative;
+    width: 100%; /* Set the desired width */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the card horizontally */
+}

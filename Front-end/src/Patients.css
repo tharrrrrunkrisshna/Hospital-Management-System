@@ -1,0 +1,53 @@
+/* patients.css */
+
+.patients-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 7%;
+  }
+  
+  .patients-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .put-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styling as needed */
+  
+  

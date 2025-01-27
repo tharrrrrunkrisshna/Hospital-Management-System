@@ -1,0 +1,61 @@
+/* Delete.css */
+
+
+
+
+
+/* Update the styles for the .logInform box */
+.logInform {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 100px;
+  width: 300px;
+  text-align: center;
+  /* Add the following properties to move the box to the right side */
+  position: absolute;
+  right: 450px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.logInform p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.logInform input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btncontainer {
+  text-align: center;
+}
+
+#btn4 {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+#btn4:hover {
+  background-color: #c9302c;
+}
+
+#btn4-text {
+  background-color: #5bc0de;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
